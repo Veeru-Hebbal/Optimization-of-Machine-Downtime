@@ -14,11 +14,8 @@ import xgboost
 import pandas as pd
 
 
-# Set the working directory to Current Working Directory
-directory_path = os.getcwd()
-
 # Construct the relative file path to the pickle file
-autoML_file = os.path.join(directory_path, 'models', 'autoML_pipeline_lightgbm')
+autoML_file = 'autoML_pipeline_lightgbm.pkl'
 
 # Loading the model saved from main.py file
 loaded_model = load_model(autoML_file)
