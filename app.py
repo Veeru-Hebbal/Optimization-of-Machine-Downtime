@@ -15,7 +15,7 @@ import pandas as pd
 
 
 # Construct the relative file path to the pickle file
-autoML_file = 'autoML_pipeline_lightgbm.pkl'
+autoML_file = 'autoML_pipeline_lightgbm'
 
 # Loading the model saved from main.py file
 loaded_model = load_model(autoML_file)
